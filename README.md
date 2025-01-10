@@ -7,7 +7,7 @@ git clone https://github.com/dfyzicka/ngWG.git
 ```bash
 cd ngWG/
 ```
-делаешь скрипты иполняемыми 
+делаешь файлы иполняемыми 
 ```bash
 sudo chmod +x *.sh
 ```
