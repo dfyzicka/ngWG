@@ -16,4 +16,4 @@ sed -i "/^PermitRootLogin no/a AllowUsers $ssh_user" /etc/ssh/sshd_config
 
 # ребут демона
 echo "ребутаем демона SSH"
-systemctl restart sshd && echo "SSH успешно перезапущен." || echo "Ошибка -тiкай с дому"
+systemctl restart sshd 
